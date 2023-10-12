@@ -12,7 +12,7 @@ public class AssetBundler : EditorWindow
     string logs = "";
 
     [MenuItem("Custom Tools/Build Asset Bundles")]
-    public static void ShowWindow() >= GetWindow(typeof(AssetBundler));
+    public static void ShowWindow() => GetWindow(typeof(AssetBundler));
 
     private void OnGUI()
     {
